@@ -22,3 +22,10 @@ sudo apt-get install uwsgi-plugin-python
     일단 매뉴얼로 기동하고 추후 다시 보완 필요.
 
 5) githun 동기화
+
+6) /etc/hosts 파일에 www.mirae00.com, mirae00.com, blog, iot 서브도메인 등록
+
+7) nginx.conf 에서 blog, iot 노드 가상서버 설정 및 기동
+
+[2017.10.01: 2일차]
+

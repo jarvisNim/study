@@ -1,0 +1,44 @@
+upstream django {
+  server unix:///tmp/example.com.sock;
+}
+
+upstream nodejs {
+  server 127.0.0.1:3000;
+}
+
+# Django Config
+
+server {
+
+  listen 80;
+  server_name mirae00.com;
+  root /var/www/example.com/src/mirae;
+  access_log /var/www/example.com/logs/django_access.log;
+  error_log /var/www/example.com/logs/django_error.log;
+
+  location / {
+    include uwsgi_params;
+    uwsgi_pass django;
+  }
+
+  location = /favicon.ico { access_log off; log_not_found off; }
+}
+
+# Nodejs Config
+
+server {
+  listen 80;
+  server_name iot.mirae00.com;
+  access_log /var/www/example.com/logs/node_access.log;
+  error_log /var/www/example.com/logs/node_error.log;
+  root /var/www/example.com/iot;
+
+  location / {
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarder-For $proxy_add_x_forwarded_for;
+    proxy_set_header Host $http_host;
+    proxy_set_header X-NginX-Proxy true;
+    proxy_pass http://iot.mirae00.com;
+    proxy_redirect off;
+  }
+}
