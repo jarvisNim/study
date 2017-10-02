@@ -6,11 +6,11 @@ base = /var/www/example.com
 # config
 protocol = uwsgi
 venv = %(base)/venv
-pythonpath = %(base)/%(projectname)
+pythonpath = %(base)/src/%(projectname)
 module = %(projectname).wsgi
 socket = /tmp/%(projectdomain).sock
 chmod-socket = 666
-logto = %(base)/logs/uwsgi.log
+logto = %(base)/logs/uwsgi.log 
 process = 5
 master = true
 vacuum = true

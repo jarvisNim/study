@@ -34,16 +34,24 @@ sudo apt-get install uwsgi-plugin-python
    psql
    - db : mirae_db
    - user : miraeuser
-   - password : 1qaz2wsx!Q
+   - password : 1234
+
+   - db : blog_db
+   - user : bloguser
+   - password : 1234
 
 9) django + postgresql 연동 --> www.mirae website
    - settings.py
    - createsuperuser
-     . admin, admin@miraelabs.com, dlalwl00
+     . admin, dlalwl00, admin@miraelabs.com, dlalwl00
 
 10) nodejs(express) + mongodb 연동  --> iot.mirae website
    - express, body-parser, mongoose 설치
 
-11) nodeja(express) + postgresql 연동  --> blog.mirae website
+11) nodejs(express) + postgresql 연동  --> blog.mirae website
    - pg, pgadmin3
  
+12) pystagram(django) tutorial 수행 
+   *** django 는 기본적으로  One Project, Multi app
+
+
