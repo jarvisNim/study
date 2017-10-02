@@ -29,3 +29,21 @@ sudo apt-get install uwsgi-plugin-python
 
 [2017.10.01: 2일차]
 
+8) postgresql 설치
+   sudo su - postgres
+   psql
+   - db : mirae_db
+   - user : miraeuser
+   - password : 1qaz2wsx!Q
+
+9) django + postgresql 연동 --> www.mirae website
+   - settings.py
+   - createsuperuser
+     . admin, admin@miraelabs.com, dlalwl00
+
+10) nodejs(express) + mongodb 연동  --> iot.mirae website
+   - express, body-parser, mongoose 설치
+
+11) nodeja(express) + postgresql 연동  --> blog.mirae website
+   - pg, pgadmin3
+ 

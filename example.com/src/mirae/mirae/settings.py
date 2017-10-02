@@ -25,7 +25,7 @@ SECRET_KEY = 'xqb%-a9#if_u%+e8f&ff(h&26mw+7d=p7&xq@*-&87gevnw*ce'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['rueshy00.com', 'www.rueshy00.com']
+ALLOWED_HOSTS = ['mirae00.com', 'www.mirae00.com','blog.mirae00.com','iot.mirae0.com']
 
 
 # Application definition
@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'mirae.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'mirae_db',
+        'USER': 'miraeuser',
+        'PASSWORD': '1qaz2wsx!Q',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
