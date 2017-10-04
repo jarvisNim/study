@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class photo(models.Model):
+class Photo(models.Model):
     """pystagram for photo."""
     image = models.ImageField()
     filtered_image = models.ImageField()

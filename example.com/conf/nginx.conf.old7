@@ -29,14 +29,6 @@ server {
     #add_header P3P 'CP="ALL DSP COR PSAa PSDa OUR NOR ONL UNI COM NAV"';
   }
 
-  location /static {
-    alias  /var/www/example.com/mirae/static;
-  }
-
-  location /media {
-    alias  /var/www/example.com/mirae/media;
-  }
-
   location = /favicon.ico { access_log off; log_not_found off; }
 }
 
