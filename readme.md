@@ -59,6 +59,8 @@ sudo apt-get install uwsgi-plugin-python
    *** django 는 기본적으로  One Project, Multi app
 
 
+
+
 [2017.10.02: 3일차]
 
 13) django 설정파일 ( /admin 의 nginx.conf (not uwsgi.ini) 설정 오류로 초기css적용안되어 6시간이상 해멤...)
@@ -76,6 +78,16 @@ http://blog.hannal.com/category/start-with-django-webframework/
 
 
 
-[2017.10.03: 4일차] 
 
-16) 
+[2017.10.05: 4일차] 
+
+16) iot robot 기획
+
+17) chat tutorial 코딩 완료
+http://poiemaweb.com/nodejs-socketio
+
+
+
+[2017.10.06 5일차]
+
+18) 
