@@ -25,7 +25,7 @@ SECRET_KEY = '_i9$h8$-^h)zbntwfmrh886g016)cqk)9#vfq0*$&_r_0xz&_a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mirae00.com', 'www.mirae00.com','blog.mirae00.com','iot.mirae0.com']
+ALLOWED_HOSTS = ['mirae00.com', 'www.mirae00.com','blog.mirae00.com','iot.mirae0.com','192.168.0.18',]
 
 
 # Application definition
