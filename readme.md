@@ -81,9 +81,9 @@ http://blog.hannal.com/category/start-with-django-webframework/
 
 [2017.10.05: 4일차] 
 
-16) iot robot 기획
+16) iot부문에서  robot 기획
 
-17) chat tutorial 코딩 완료
+17) chat부문에서 chat tutorial 코딩 완료
 http://poiemaweb.com/nodejs-socketio
 
 
@@ -91,26 +91,39 @@ http://poiemaweb.com/nodejs-socketio
 
 [2017.10.06 5일차]
 
-18) 난관봉착 : chat 코딩중 angular.js 를 만나 헤메고 있음.
+18) blog부문에서 난관봉착 : chat 코딩중 angular.js 를 만나 헤메고 있음.
     기존의 jquery 는 어디가고...
    - angular.js 설치
    * angular.js 사용가이드로 다시 back..... 오늘은 이것만이라도.. ㅜㅜ
 
-19) Front 단은 angular.js, react.js, jquery, Vue.js 를 
+19) blog부문에서 Front 단은 angular.js, react.js, jquery, Vue.js 를 
     미래지향성, javascript 순수기술, Framework 의 지나친 의존도 폐해들을
     다각도로 검토한 결과, Vue.js 를 기본 툴로 판단하여 실행
 
-20) Vue.js 샘플 tutorial 추가
+20) blog부문에서 Vue.js + javascript 샘플 tutorial 추가
 https://medium.com/@michaelmangial1/getting-started-with-vue-js-socket-io-8d385ffb9782
 
 
 
 [2017.10.07 6일차]
 
-21) 안드로이드폰(LG-F480S) 에 루팅하고, 우분투 설치, sd카드 디렉토리 마운트 완료
+21) iot부문에서 안드로이드폰(LG-F480S) 에 루팅하고, 우분투 설치, sd카드 디렉토리 마운트 완료
 
-22) PC 우분투에서 ssh 연결
+22) iot부문에서 PC 우분투에서 안드로이드로 ssh 연결
 
-23) 안드로이드폰에서 PC 우분투 서버의 url (http://192.168.0.18) 로 웹브라우저 연결
+23) iot부문에서 안드로이드폰에서 PC 우분투 서버의 url (http://192.168.0.18) 로 웹브라우저 연결
 
-24)
+
+
+
+[2017.10.08 7일차]
+
+24) iot부문에서 안드로이드에서 아두이노 usb 연결가능 : ArduinoDroid, DataLogger 가능 확인
+
+25) iot부문에서 ios 에서 우분투 설치 불가능. ㅜㅜ
+
+26) iot부문에서 andoroid, ios, windows, ubuntu 에서 동작가능한 새로운 플랫폼 검토중.
+    - client : html5, javascript
+    - server : node.js, javascript
+
+27) 
